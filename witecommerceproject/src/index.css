@@ -66,3 +66,76 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.navigatetop {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+}
+
+.navproduct {
+  position: relative;
+}
+
+.product-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 1000;
+  min-width: 250px;
+  display: flex;
+  gap: 2rem;
+}
+
+.navproduct:hover .product-dropdown {
+  display: flex;
+}
+
+.product-dropdown-baslik {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.editorspick .men button {
+  background-image: url('/assets/images/asaprocky.jpg'); /* resim yolu */
+  background-size: cover;      /* resmi butona tam sığdır */
+  background-position: center; /* ortala */
+  color: white;                /* yazı rengini görünür yap */
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.editorspick .women button {
+  background-image: url('/assets/images/kristinefroseth.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.editorspick .accessories button {
+  background-image: url('/images/accessories-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.editorspick .kids button {
+  background-image: url('/assets/images/childmodel.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
